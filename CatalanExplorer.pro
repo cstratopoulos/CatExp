@@ -29,13 +29,11 @@ SOURCES += main.cpp\
     catalanboard.cpp \
     pathviz.cpp \
     triangviz.cpp \
-    binarytreeviz.cpp
 
 HEADERS  += catwindow.hpp \
     catalanboard.hpp \
     catalanviz.hpp \
     pathviz.hpp \
     triangviz.hpp \
-    binarytreeviz.hpp
 
 FORMS    += catwindow.ui
