@@ -18,7 +18,7 @@ CatExp is a [Qt](http://qt.io) application written in C++11. You will
 need Qt5/`qmake` and a compiler that supports C++11 to get started.
 
 Once you've cloned or downloaded this repository, you can build CatExp
-with QtCreator if you have it. If not, `cd` into project directory,
+with QtCreator if you have it. If not, `cd` into the project directory,
 and let's assume `qmake` links to the `qmake` binary. Then just
 
     mkdir build
