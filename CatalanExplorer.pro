@@ -6,6 +6,7 @@
 
 QT       += core gui
 CONFIG   += c++11
+INCLUDEPATH += $$PWD/inc
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -24,16 +25,16 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 
-SOURCES += main.cpp\
-        catwindow.cpp \
-    catalanboard.cpp \
-    pathviz.cpp \
-    triangviz.cpp \
+SOURCES += src/main.cpp\
+        src/catwindow.cpp \
+    src/catalanboard.cpp \
+    src/pathviz.cpp \
+    src/triangviz.cpp \
 
-HEADERS  += catwindow.hpp \
-    catalanboard.hpp \
-    catalanviz.hpp \
-    pathviz.hpp \
-    triangviz.hpp \
+HEADERS  += inc/catwindow.hpp \
+    inc/catalanboard.hpp \
+    inc/catalanviz.hpp \
+    inc/pathviz.hpp \
+    inc/triangviz.hpp \
 
 FORMS    += catwindow.ui
