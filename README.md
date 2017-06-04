@@ -44,8 +44,7 @@ and the progress bars at the bottom show you how many more East/South
 steps you can take. Just keep in mind, CatExp won't let you make a
 move that would make South steps outnumber East steps!
 
-To Do/Known Issues
+To Do
 ---
-- To Do: add full binary tree viz.
-- Issue: Switching between representations or resizing sometimes
-  breaks the visualizer orientation.
+- Full binary tree viz
+- Non-crossing partition viz
