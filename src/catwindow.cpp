@@ -26,7 +26,6 @@ CatWindow::CatWindow(QWidget *parent) :
 
     ui->setupUi(this);
     ui->graphicsView->setScene(&boardScene);
-    ui->graphicsView->setRenderHint(QPainter::Antialiasing);
 
     visualizer->drawSkeleton();
 }
@@ -53,7 +52,7 @@ void CatWindow::dyckStringUpdate()
 {
     auto dyckStr = catBoard.pathString();
     if (dyckStr.empty()) {
-        ui->dyckWord->setText("(No path specified)");
+        ui->dyckWord->setText("(Empty path)");
         return;
     }
 

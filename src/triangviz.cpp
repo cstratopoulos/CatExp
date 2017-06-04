@@ -92,8 +92,8 @@ QPolygonF TriangViz::getPolygon(const CatalanBoard &board)
     result.reserve(vxCount);
 
     for (std::size_t i = 0; i < vxCount; ++i) {
-        result <<QPointF (radius * qCos((2 * 3.14 * i) / vxCount),
-                          radius * qSin((2 * 3.14 * i) / vxCount));
+        result <<QPointF (radius * qCos((2 * 3.14 * i) / vxCount) + 250,
+                          radius * qSin((2 * 3.14 * i) / vxCount) + 250);
     }
 
     return result;
