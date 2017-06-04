@@ -131,6 +131,9 @@
           <layout class="QHBoxLayout" name="horizontalLayout_2">
            <item>
             <widget class="QLabel" name="dimLabel">
+             <property name="focusPolicy">
+              <enum>Qt::ClickFocus</enum>
+             </property>
              <property name="text">
               <string>Dimension (2-20)</string>
              </property>
@@ -176,6 +179,9 @@
             <font>
              <pointsize>18</pointsize>
             </font>
+           </property>
+           <property name="focusPolicy">
+            <enum>Qt::ClickFocus</enum>
            </property>
            <property name="text">
             <string>(Empty path)</string>
